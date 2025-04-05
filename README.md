@@ -29,12 +29,12 @@ When a throw is detected:
 2. **Install dependencies:**
   pip install -r requirements.txt
 
-Note: Make sure VLC Media Player is installed and update the vlc_path variable in the script if needed.
+_Note: Make sure VLC Media Player is installed and update the vlc_path variable in the script if needed._
 
 3. **Run the detection system with Python using the available command-line flags:**
 py -m video_detection_feedback_video_args [flags]
 
-✅ Available Flags
+✅ Available Flags:
    -a	Do everything: show webcam, detect, create & play video
    -wc	Show only the webcam feed
    -v	Create a reaction video when a throw is detected
