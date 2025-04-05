@@ -35,10 +35,10 @@ Note: Make sure VLC Media Player is installed and update the vlc_path variable i
 py -m video_detection_feedback_video_args [flags]
 
 ✅ Available Flags
--a	Do everything: show webcam, detect, create & play video
--wc	Show only the webcam feed
--v	Create a reaction video when a throw is detected
--pv	Play the video after it's created
+   -a	Do everything: show webcam, detect, create & play video
+   -wc	Show only the webcam feed
+   -v	Create a reaction video when a throw is detected
+   -pv	Play the video after it's created
 
 Example Commands
 Full workflow (detect + record + play):
